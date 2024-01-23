@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: #141414;
+  height: 700px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.profilBox {
+  width: 400px;
+  height: 570px;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  background-color: #1F1F1F;
+  display: flex;
+  align-items: center;
+  padding: 25px;
+  
+  flex-direction: column;
+}
+
+.profilPhoto {
+
+  height: 100px;
+  width: 100px;
+  margin-bottom: 20px;
+
+  img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+  }
+
+}
+
+.profilText{
+  text-align: center;
+ 
+  h1{
+    color: white;
+    font-weight: 500;
+  }
+  p{
+    color: hsl(75, 94%, 57%);
+    font-weight: 500;
+    margin-top: 5px;
+  }
+}
+
+.fonrtend{
+  margin-top: 25px;
+  p{
+    color: white;
+  }
+}
+
+.profilSkills{
+  margin-top: 20px;
+  font-weight: 500;
+  
+
+
+}
+
+.section{
+  width: 320px;
+  background-color: #333333;
+  text-align: center;
+  padding: 10px;
+  color: white;
+  border-radius: 5px;
+  margin: 10px;
+  cursor: pointer ;
+
+  
+}
+
+.section:hover{
+  background-color: hsl(75, 94%, 57%);
+  color: black;
+  font-weight: bold;
+}
+
+@media only screen and (max-width:375px){
+  .profilBox{
+    width: 350px;
+    height: 600px;
+  }
+
+  .fonrtend{
+    font-size: 14px;
+  }
+
+  .section{
+    width: 300px;
+    margin-top: 15px;
+    padding: 12px;
+    
+  }
+  .container{
+    padding-top: 50px;
+  }
+
+
+
+
+}
+
+
+
